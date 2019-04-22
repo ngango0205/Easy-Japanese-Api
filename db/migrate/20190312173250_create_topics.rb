@@ -26,6 +26,7 @@ class CreateTopics < ActiveRecord::Migration[5.2]
       t.integer :time_practice
       t.float :score_scale
       t.integer :viewer
+      t.string :video_url
 
       t.timestamps
     end
